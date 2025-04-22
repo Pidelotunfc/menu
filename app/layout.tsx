@@ -1,5 +1,5 @@
 // app/layout.tsx
-import React from "react";
+import React from 'react';
 
 export const metadata = {
   title: "Carta Digital",
@@ -13,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body style={{ margin: 0, fontFamily: "sans-serif" }}>{children}</body>
+      <body style={{ margin: 0, fontFamily: "sans-serif" }}>
+        {children}
+      </body>
     </html>
   );
 }
